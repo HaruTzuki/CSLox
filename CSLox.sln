@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{970F79D5-4BC3-467D-9674-B1ABE45A0141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLox.Tests", "tests\CSLox.Tests\CSLox.Tests.csproj", "{9A8066C7-24D2-4D99-B015-5BA4CFE9B947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +26,10 @@ Global
 		{9F208AB4-C2CD-4AF0-B5C8-AD788F2FE5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F208AB4-C2CD-4AF0-B5C8-AD788F2FE5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F208AB4-C2CD-4AF0-B5C8-AD788F2FE5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8066C7-24D2-4D99-B015-5BA4CFE9B947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8066C7-24D2-4D99-B015-5BA4CFE9B947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8066C7-24D2-4D99-B015-5BA4CFE9B947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8066C7-24D2-4D99-B015-5BA4CFE9B947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,5 +39,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9F208AB4-C2CD-4AF0-B5C8-AD788F2FE5C8} = {4849F991-10D6-4585-BBA0-C0D3BB0C5583}
+		{9A8066C7-24D2-4D99-B015-5BA4CFE9B947} = {970F79D5-4BC3-467D-9674-B1ABE45A0141}
 	EndGlobalSection
 EndGlobal

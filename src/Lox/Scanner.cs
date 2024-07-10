@@ -2,7 +2,7 @@
 
 namespace Lox
 {
-    internal class Scanner(string source)
+    public class Scanner(string source)
     {
         #region Fields
 
