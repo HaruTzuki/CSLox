@@ -1,0 +1,8 @@
+﻿/*
+    This is a multiline comment
+    Is this nice?
+    Let's see!
+*/
+
+var age = 15;
+var name = "Joe Doe";
