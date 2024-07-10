@@ -10,6 +10,12 @@
             Report(line, "", message);
         }
 
+        public static void Warning(int line, string message)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Report(line, "", message);
+        }
+
         private static void Report(int line, string where, string message)
         {
             Console.WriteLine($"[line {line}] Error {where}: {message}");
